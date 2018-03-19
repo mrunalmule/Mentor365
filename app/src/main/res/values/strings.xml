@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">Mentor365</string>
+    <string name="ob_header1">DIEMS App</string>
+    <string name="ob_header2">Notices</string>
+    <string name="ob_header3">Class Test Result</string>
+
+    <string name="ob_get_started">GET STARTED</string>
+
+
+    <string name="ob_desc1" formatted="false">
+        <![CDATA[
+        Let Us <sup>Rise</sup> Above The Rest
+        ]]></string>
+    <string name="ob_desc2">Stay Updated...</string>
+    <string name="ob_desc3">Track Your Grades...</string>
 </resources>

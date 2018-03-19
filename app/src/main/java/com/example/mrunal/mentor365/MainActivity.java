@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void run() {
-                startActivity(new Intent(MainActivity.this, FirstScreen.class));
+                startActivity(new Intent(MainActivity.this, OnBoardingActivity.class));
                 finish();
             }
         }, SPLASH_TIME_OUT);

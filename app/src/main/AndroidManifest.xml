@@ -19,6 +19,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".FirstScreen"></activity>
+        <activity android:name=".OnBoardingActivity"></activity>
     </application>
 
 </manifest>
