@@ -13,4 +13,10 @@
         ]]></string>
     <string name="ob_desc2">Stay Updated...</string>
     <string name="ob_desc3">Track Your Grades...</string>
+    <string name="title_activity_featured">Featured</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
 </resources>

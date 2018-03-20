@@ -18,8 +18,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".FirstScreen"></activity>
-        <activity android:name=".OnBoardingActivity"></activity>
+        <activity android:name=".FirstScreen" />
+        <activity android:name=".OnBoardingActivity" />
+        <activity
+            android:name=".Featured"
+            android:label="@string/title_activity_featured"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
