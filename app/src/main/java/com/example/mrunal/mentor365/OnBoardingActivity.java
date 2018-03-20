@@ -1,5 +1,6 @@
 package com.example.mrunal.mentor365;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.content.ContextCompat;
 import android.support.v4.view.ViewPager;
@@ -85,12 +86,20 @@ public class OnBoardingActivity extends AppCompatActivity {
 
             }
         });
+        browse.setOnClickListener(new View.OnClickListener() {
+            //@Override
+            public void onClick(View v) {
 
+                Toast.makeText(OnBoardingActivity.this,"Redirect to Featured",Toast.LENGTH_LONG).show();
+                startActivity(new Intent(OnBoardingActivity.this, Featured.class));
+            }
+        });
         btn_get_started.setOnClickListener(new View.OnClickListener() {
             //@Override
             public void onClick(View v) {
 
-                Toast.makeText(OnBoardingActivity.this,"Redirect to wherever you want",Toast.LENGTH_LONG).show();
+                Toast.makeText(OnBoardingActivity.this,"login",Toast.LENGTH_LONG).show();
+                startActivity(new Intent(OnBoardingActivity.this, Featured.class));
             }
         });
 

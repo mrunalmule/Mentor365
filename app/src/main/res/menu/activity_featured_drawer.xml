@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single" android:title="Individual">
+        <item
+            android:id="@+id/features"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Features"
+            />
+        <item
+            android:id="@+id/mymentors"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="My Mentors"
+            android:visible="false"/>
+        <item
+            android:id="@+id/livesessions"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Live Sessions"
+            android:visible="false"/>
+        <item
+            android:id="@+id/topmentors"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Top Mentors" />
+    </group>
+
+    <item android:title="Group" android:visible="false">
+        <menu>
+            <item
+                android:id="@+id/mygroup"
+                android:icon="@drawable/ic_menu_share"
+                android:title="My Group" />
+        </menu>
+    </item>
+
+</menu>
