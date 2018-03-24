@@ -23,7 +23,8 @@
         <activity
             android:name=".Featured"
             android:label="@string/title_activity_featured"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".videochat"></activity>
     </application>
 
 </manifest>

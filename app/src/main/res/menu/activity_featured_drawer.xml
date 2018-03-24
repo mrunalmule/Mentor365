@@ -22,7 +22,7 @@
         <item
             android:id="@+id/topmentors"
             android:icon="@drawable/ic_menu_slideshow"
-            android:title="Top Mentors" />
+            android:title="Video chat" />
     </group>
 
     <item android:title="Group" android:visible="false">

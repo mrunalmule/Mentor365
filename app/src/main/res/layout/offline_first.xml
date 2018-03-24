@@ -15,9 +15,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-        <TextView
-            android:layout_height="wrap_content"
-            android:background="#ffffff"
-            android:text="Top Mentors"/>
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>
